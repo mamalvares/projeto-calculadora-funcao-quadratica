@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #2f454d;
+    color: white;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+form {
+    margin-top: 2rem;
+    background: rgba(0, 251, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+form input {
+    width: 60px;
+}
+
+button {
+    margin: 2rem 0 2rem;
+    width: 50%;
+    color: white;
+    padding: 1rem;
+    background: rgba( 0, 0, 0, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.119);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba( 0, 0, 0, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 100%, 0.18);
+    cursor: pointer;
+    transition: ease .5s;
+}
+
+.creditos {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.creditos a {
+    color: white;
+}
